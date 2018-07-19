@@ -19,3 +19,5 @@ The grapheme cluster break property data is stored in graphemebreakproperty.inc,
 ## Tests
 
 To test conformance to the UAX #29, the Unicode consortium has published test cases [here](https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakTest.txt). These test case definitions can be converted to doctest test cases using the C# program found in `tests/GraphemeTestGenerator`.
+
+Tests are run using the [doctest](https://github.com/onqtam/doctest) library, licensed unter MIT.
